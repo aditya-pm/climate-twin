@@ -1,0 +1,14 @@
+backend/.venv/
+__pycache__/
+*.pyc
+backend/data/raw/
+web/node_modules/
+web/.next/
+web/public/maplibre/
+report/node_modules/
+report/data/grid.json
+.DS_Store
+
+# training outputs (regenerate with: cd backend && python train.py)
+backend/reports/
+report/
